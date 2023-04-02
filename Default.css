@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;500;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  width: 1200px; 
+  height: 900px; 
+  position: absolute;
+}
+
+
+header {
+    position: absolute;
+    width: 1200px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: url(bac-ysm.png);      
+}
+.header-title {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 40px;
+    top: 54px;
+    
+    font-family: 'Cormonart';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: black;    
+}
+
+.header-title::after{
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    cursor: pointer;
+  
+}
+
+.one {
+    position: absolute;
+    width: 76px;
+    height: 29px;
+    left: 340px;
+    top: 54px;
+    text-decoration: none;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    opacity: 0.5;
+    
+    color: #FFFFFF;
+    
+}
+
+.one::before {
+    color: #FFFFFF;
+}
+
+.two{
+    position: absolute;
+    width: 58px;
+    height: 29px;
+    left: 482px;
+    top: 54px;
+    text-decoration: none;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    opacity: 0.5;
+    
+    color: #FFFFFF;    
+}
+
+.two:hover {
+    color: #FFFFFF;
+}
+
+.three {
+    position: absolute;
+    width: 79px;
+    height: 29px;
+    left: 606px;
+    top: 54px;
+    text-decoration: none;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    opacity: 0.5;
+    
+    color: #FFFFFF;    
+}
+
+.three:hover{
+    color: #FFFFFF;    
+}
+
+.four {
+    position: absolute;
+    width: 99px;
+    height: 29px;
+    left: 751px;
+    top: 54px;
+    text-decoration: none;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    opacity: 0.5;
+    
+    color: #FFFFFF;
+    
+}
+
+.four:hover {
+   color: #FFFFFF;
+}
+
+.main-title {
+    position: absolute;
+    width: 461px;
+    height: 48px;
+    left: 369px;
+    top: 288px;
+    
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: rgba(255, 255, 255, 0.2);    
+}
